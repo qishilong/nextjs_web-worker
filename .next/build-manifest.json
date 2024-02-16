@@ -1,0 +1,48 @@
+{
+  "pages": {
+    "/_app": [
+      "static/chunks/11a3f_next_071faf._.js",
+      "static/chunks/c8460_react_22c55a._.js",
+      "static/chunks/4e99c_react-dom_cjs_react-dom_development_c0b264.js",
+      "static/chunks/4e99c_react-dom_55c180._.js",
+      "static/chunks/node_modules_2f1079._.js",
+      "static/chunks/[root of the server]__272bc4._.js",
+      "static/chunks/11a3f_next_dist_pages_ed0583._.js",
+      "static/chunks/[next]_entry_page-loader_ts_490be4._.js",
+      "static/chunks/[next]_entry_page-loader_ts_cb3ad2._.js",
+      "static/chunks/pages/_app.js"
+    ],
+    "/_error": [
+      "static/chunks/11a3f_next_b6d0b7._.js",
+      "static/chunks/c8460_react_22c55a._.js",
+      "static/chunks/4e99c_react-dom_cjs_react-dom_development_c0b264.js",
+      "static/chunks/4e99c_react-dom_55c180._.js",
+      "static/chunks/node_modules_2f1079._.js",
+      "static/chunks/[root of the server]__2d61be._.js",
+      "static/chunks/11a3f_next_dist_pages_da2670._.js",
+      "static/chunks/[next]_entry_page-loader_ts_8c1118._.js",
+      "static/chunks/[next]_entry_page-loader_ts_485eb7._.js",
+      "static/chunks/pages/_error.js"
+    ]
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/development/_ssgManifest.js",
+    "static/development/_buildManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/11a3f_next_dist_compiled_react_0654a3._.js",
+    "static/chunks/11a3f_next_dist_compiled_react-dom_cjs_react-dom_development_8306b5.js",
+    "static/chunks/11a3f_next_dist_compiled_react-dom_ffdd37._.js",
+    "static/chunks/11a3f_next_dist_compiled_f0afd6._.js",
+    "static/chunks/11a3f_next_dist_client_d781a3._.js",
+    "static/chunks/11a3f_next_dist_aeff05._.js",
+    "static/chunks/node_modules_f6bae3._.js",
+    "static/chunks/[turbopack]_dev_client_hmr-client_ts_8ef826._.js",
+    "static/chunks/11a3f_next_dist_esm_build_templates_app-page_7e5deb.js",
+    "static/chunks/11a3f_next_dist_esm_build_templates_app-page_20416f.js"
+  ],
+  "ampFirstPages": []
+}

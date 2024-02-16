@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/page.tsx"],"sourcesContent":["\"use client\";\nimport { useEffect, useRef } from \"react\";\nimport type { FC } from \"react\";\nimport Worker from \"worker-loader!../workers/worker\";\n\nconst Page: FC = () => {\n  const workerRef = useRef<Worker>(new Worker());\n\n  useEffect(() => {\n    workerRef.current.postMessage(\"page\");\n\n    workerRef.current.onmessage = (e: MessageEvent) => {\n      console.log(e.data, \"page message\");\n    };\n    return () => {\n      workerRef.current.terminate();\n    };\n  }, []);\n  return <h1>Hello, Next.js!</h1>;\n};\n\nexport default Page;\n"],"names":[],"mappings":";;;;;;;;;;;AAAA;;;;AAKA,MAAM,OAAW;IACf,MAAM,YAAY,+TAAe,IAAI;IAErC,kUAAU;QACR,UAAU,OAAO,CAAC,WAAW,CAAC;QAE9B,UAAU,OAAO,CAAC,SAAS,GAAG,CAAC;YAC7B,QAAQ,GAAG,CAAC,EAAE,IAAI,EAAE;QACtB;QACA,OAAO;YACL,UAAU,OAAO,CAAC,SAAS;QAC7B;IACF,GAAG,EAAE;IACL,qBAAO,wVAAC;kBAAG;;;;;;AACb;uCAEe"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":["../../../../../../../src/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts","/turbopack/[project]/node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,sMAAiCC,QAAQ,CACxD,YACD,CAACC,kBAAkB"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

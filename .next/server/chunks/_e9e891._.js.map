@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/layout.tsx"],"sourcesContent":["import React from \"react\";\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang='en'>\n      <body>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;AACe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,wVAAC;QAAK,MAAK;kBACT,cAAA,wVAAC;sBAAM;;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/page.tsx/proxy.js"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/app/page.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/app/page.tsx\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;;;;uCACe,gYACX;IAAa,MAAM,IAAI,MAAM;AAA4P,GACzR,0BACA"}},
+    {"offset": {"line": 48, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 53, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 69, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/.next-internal/server/app/page/actions.js"],"sourcesContent":["__turbopack_export_value__({\n});"],"names":[],"mappings":"AAAA,2BAA2B,CAC3B"}},
+    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
